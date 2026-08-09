@@ -21,21 +21,24 @@ Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 20
 **ROM**
 + 2x M2764-2FI, paikat neljälle (2 LO, 2 HI) - tarrojen teksti = checksum
 
-**Junior board**: Z80 CPU + 2x M2764 EPROM, tarrojen teksti ei täsmää checksumeihin
-
 **RAM**
 + Virtalähteen kannessa tussilla kirjoitettu 128 - muistin määrä?
 + 16x TMM4164AP-15 -> täsmäisi 128k:n
 
 **Piirilevyjen backplane**
 + 5x korttipaikkaa
++ tässä koneessa kolme korttia asennettuna:
+  - Peripheral Interface Card 8450
+  - CPU Card 8416B
+  - AMC-100 Junior 8437B (mikä tämän tarkoitus? Z80 CPU + 2x M2764 EPROM, tarrojen teksti ei täsmää checksumeihin. Videolähtö tällä kortilla)
 + liitin: Perlos CO64FS-C1E-0,8/5
 
 **Virtalähde**
 + Boschert XL60-3601R/4601R - 110/220V 108W - date 8611
 + jumpperikaapeli 110/220V asennoille virtalähteen sisällä
++ lähdöt backplanen liittimen tekstien perusteella: GND, +5V, +12V, -5V, -12V
 + elkot: 2x 220/200V, 2x 220/16V SL, 2x 2200/16 pun. SXC, 1000/25 pun SXC, 220/25 RX, 2x 100/25 RX, 470/63, 470/35 pun SXC, 4,7/100 SL, 1/100 SL
-+ virtaliittimessä takapaneelissa filtterit, lisäksi virtalähteessä 3x RIFA 4700pf Y-konkat
++ virtaliittimessä takapaneelissa linjafiltteri (Feller AG 8843.N2.130), lisäksi virtalähteessä 3x RIFA 4700pf Y-konkat
 
 **Kaiutin**
 + 10ohm 0,5W
@@ -51,8 +54,10 @@ Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 20
 + takapaneelin tarrassa maininta neljästä lisäliittiimestä: R, G, B, Sync - optio RGB-lähdölle, ei tässä koneessa asennettuna? Backplanessa vapaa liitin VIDEO, josta nämä ehkä tulevat.
 
 **Näppäimistö**
++ QWERTY, ääkköset, F1-F15 funktionäppäimet, nuolinäppäimet ylös-alas välilyönnin vasemmalla puolella, oikealla vasen-oikea. YES- ja NO-näppäimet alimman rivin laidoissa.
++ kiinteä johto näppäimistön päässä, 25-pinninen D-liitin tietokoneen päässä
 + reset = PRINT RESET + CALL RESET
 
 # Softa
 
-60k CP/M ver 2.2?
+Tällä hetkellä ainoan levykkeen (Sukol + Brainware Kieli-Welho näyteversio) perusteella: 60k CP/M ver 2.2, muitakin?
