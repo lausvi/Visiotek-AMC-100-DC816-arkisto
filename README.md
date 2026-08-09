@@ -2,7 +2,7 @@
 
 ![kone](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/AMC100_front_web.jpeg)
 
-> Suomen suosituin alkuaikojen koulutietokone oli kielistudioita valmistaneen Auditekin AMC-100, jota myytiin ulkomaillekin. AMC-100:t pystyi myös kytkemään lähiverkoksi. Toinen koulukäyttöön tarkoitettu CP/M-kone oli Pentti Hakalan suunnittelema Spectra eli Mikrospectra. (https://skrolli.fi/2014/06/60-vuotta-suomalaisia-tietokoneita/)
+> Suomen suosituin alkuaikojen koulutietokone oli kielistudioita valmistaneen Auditekin AMC-100, jota myytiin ulkomaillekin. AMC-100:t pystyi myös kytkemään lähiverkoksi. Toinen koulukäyttöön tarkoitettu CP/M-kone oli Pentti Hakalan suunnittelema Spectra eli Mikrospectra. (Ville-Matias Heikkilä @ https://skrolli.fi/2014/06/60-vuotta-suomalaisia-tietokoneita/)
 
 Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2024.2 (https://skrolli.fi/2024.2.anttila.pdf, s. 38 alk)  
 
