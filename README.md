@@ -1,5 +1,4 @@
 # Visiotek-AMC-100-DC816-arkisto
-Arkisto kuvia ja materiaalia suomalaisen 80-luvun opetustietokone Visiotek AMC-100:an liittyen
 
 ![kone](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/AMC100_front_web.jpeg)
 
@@ -40,6 +39,16 @@ Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 20
 
 **Kaiutin**
 + 10ohm 0,5W
+
+**Liitännät**
++ VIDEO1 (komposiittivideo monitorille, koaksiaaliliitin)
++ RF (analog.tv-viritin televisiolle, koaksiaaliliitin) - Alpsin viritin kotelon takaosassa
++ SERIAL 1 ("med" - mitä tarkoittaa?) - D25 naaras, musta
++ SERIAL 2 - D25 naaras, valkoinen
++ PARALLEL - D25 uros
++ KEYBOARD - D25 uros
++ EXT (tässä koneessa liittimetön aukko kotelossa, DIN-liittimen näköinen reikä - mille tarkoitettu?)
++ takapaneelin tarrassa maininta neljästä lisäliittiimestä: R, G, B, Sync - optio RGB-lähdölle, ei tässä koneessa asennettuna? Backplanessa vapaa liitin VIDEO, josta nämä ehkä tulevat.
 
 **Näppäimistö**
 + reset = PRINT RESET + CALL RESET
