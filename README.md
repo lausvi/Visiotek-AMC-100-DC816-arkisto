@@ -1,6 +1,6 @@
 # Visiotek AMC-100 DC816 Educational Computer -arkisto
 
-![kone](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/AMC100_front_web.jpeg)
+![kone](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/AMC100_etupaneeli_pieni.jpeg)
 
 Kerään tänne ym. laitteeseen liittyviä havaintojani, kuvia ja tulevaisuudessa toivottavasti myös levyimageja, jos sellaisia saan käsiini.
 
@@ -70,10 +70,10 @@ Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 20
 
 # Softa
 
-![boot](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/boot_screenshot_web.png)
+![boot](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/boot_screenshot.png)
 
 Tällä hetkellä ainoan levykkeeni (Sukol + Brainware Kieli-Welho näyteversio) perusteella: 60k CP/M ver 2.2, muitakin?
 
-![softa](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/kieli-welho_screenshot_web.png)
+![softa](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/kieli-welho_screenshot.png)
 
 Katso video: <https://archive.org/details/amc-100-kieliwelho>
