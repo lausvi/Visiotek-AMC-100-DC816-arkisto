@@ -6,9 +6,9 @@ Kerään tänne ym. laitteeseen liittyviä havaintojani, kuvia ja tulevaisuudess
 
 # Historiaa ja taustoja
 
-Turkulainen äänentoistolaitteiden valmistaja Telestestä syntyi kielistudioihin erikoistunut Auditek Oy, josta taas myöhemmin lähti liikkeelle opetustietokoneisiin erikoistunut Visiotek Oy. Tietokoneen piirilevyistä osan valmisti Salora, jonka logo näkyy piirilevyillä.
-
 > Suomen suosituin alkuaikojen koulutietokone oli kielistudioita valmistaneen Auditekin AMC-100, jota myytiin ulkomaillekin. AMC-100:t pystyi myös kytkemään lähiverkoksi. Toinen koulukäyttöön tarkoitettu CP/M-kone oli Pentti Hakalan suunnittelema Spectra eli Mikrospectra. (Ville-Matias Heikkilä @ https://skrolli.fi/2014/06/60-vuotta-suomalaisia-tietokoneita/)
+
+Turkulainen 1970-luvulla syntynyt kielistudiolaitteiden valmistaja Auditek Oy (myöhemmin toisen turkulaisen, äänentoistolaitteisiin erikoistuneen Telesten tytäryhtiö) alkoi 1980-luvun alussa kehitellä atk-järjestelmiä perinteisten kielistudiolaitteistojen jatkoksi. Tästä syntyi AMC-100 opetustietokone. Auditekin perustaja Jarkko Metsätähti perusti vuonna 1984(?) uuden oman yrityksen, Visiotek Oy:n, jolle Teleste myi atk-opetuslaitetoiminnot, koska Teleste ei halunnut itse osallistua koulutietokoneiden valmistukseen. Tietokoneen piirilevyistä osan valmisti Salora, jonka logo näkyy piirilevyillä.
 
 Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2024.2 (https://skrolli.fi/2024.2.anttila.pdf, s. 38 alk)
 
