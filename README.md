@@ -14,11 +14,22 @@ _Ville-Matias Heikkilä @ https://skrolli.fi/2014/06/60-vuotta-suomalaisia-tieto
 
 <br />
 
-1970-luvulla perustettu turkulainen kielistudiolaitteiden valmistaja Auditek Oy alkoi 1980-luvun alussa kehitellä atk-järjestelmiä perinteisten kielistudiolaitteistojen jatkoksi. Tästä syntyi AMC-100 opetustietokone vuonna 1982 (Z80-prosessorilla, CP/M-käyttöjärjestelmällä ja mustavalkografiikalla). Koneesta oli useampia malleja, suurimmat isoihin kielistudiokalusteisiin upotettavia malleja. Toinen turkulainen äänetoistolaitteita valmistava yritys, Teleste, osti Auditekista ensin vuonna 1977 40% osuuden ja myöhemmin lisää. Auditekin perustaja Jarkko Metsätähti perusti vuonna 1984 uuden oman yrityksen, Visiotek Oy:n, jolle Teleste myi atk-opetuslaitetoiminnot, koska Teleste ei halunnut itse osallistua koulutietokoneiden valmistukseen. AMC-tietokoneiden piirilevyjen syövytyksen hoiti alihankintana Salora. Vuosien 1984–1989 välillä koneeseen tuli uusia prosessorikortteja, 5,25-tuumainen lerppuasema muuttui 3,5 tuuman korppuasemaksi ja käyttöjärjestelmäkin vaihtui CP/M:stä DOSiksi. Myöhempiä malleja olivat mm. AMC-100/8, AMC-100/16, AMC-100/XT, AMC-100/AT.
+1970-luvulla perustettu turkulainen kielistudiolaitteiden valmistaja Auditek Oy alkoi 1980-luvun alussa kehitellä atk-järjestelmiä perinteisten kielistudiolaitteistojen jatkoksi. Tästä syntyi AMC-100 opetustietokone vuonna 1982 (Z80-prosessorilla, CP/M-käyttöjärjestelmällä ja mustavalkografiikalla). Koneesta oli useampia malleja, suurimmat isoihin kielistudiokalusteisiin upotettavia malleja. Toinen turkulainen äänetoistolaitteita valmistava yritys, Teleste, osti Auditekista ensin vuonna 1977 40% osuuden ja myöhemmin lisää. 
+<br /><br />
+Auditekin perustaja Jarkko Metsätähti perusti vuonna 1984 uuden oman yrityksen, Visiotek Oy:n, jolle Teleste myi atk-opetuslaitetoiminnot, koska Teleste ei halunnut itse osallistua koulutietokoneiden valmistukseen. AMC-tietokoneiden piirilevyjen syövytyksen hoiti alihankintana Salora. Vuosien 1984–1989 välillä koneeseen tuli uusia prosessorikortteja, 5,25-tuumainen lerppuasema muuttui 3,5 tuuman korppuasemaksi ja käyttöjärjestelmäkin vaihtui CP/M:stä DOSiksi. Myöhempiä malleja olivat mm. AMC-100/8, AMC-100/16, AMC-100/XT, AMC-100/AT.
 
 _Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2024.2 (https://skrolli.fi/2024.2.anttila.pdf, s. 38 alk)_
 
+<br />
+
 # 🪛 Rauta
+
+<br />
+Ulkoisesti kone on suuri, n. 50cm leveä, 42cm syvä ja 13cm korkea. Painava. <br />
+
+🖼️ [Kone sisältä](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/AMC100_sisus.jpg)
+
+<br />
 
 **Levykeasemat**
 + 2x 5.25" lerppuasemat: Mitsubishi M4853-342M (04/1985) "Mini Flexible Disk Drive" - 80 tracks, 96 tracks/inch, 2 sides.
@@ -28,7 +39,7 @@ _Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2
 + ohjainpiiri: TMS2793NL ("IBM compatible in single mode (FM) and double-density mode (MFM)" -datasheet)
 
 **CPU**
-+ NEC D70116D-8 (= V30 (8086) @ 8Mhz)
++ NEC D70116D-8 (=NEC V30, eli 8086-yhteensopiva) @ 8Mhz)
 
 **ROM**
 + paikat neljälle ROM-piirille (2x LO, 2x HI)
@@ -38,11 +49,12 @@ _Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2
 + Koneen sisällä viirtalähteen kannessa tussilla kirjoitettu 128 -> muistin määrä?
 + Piirit 16x TMM4164AP-15 -> täsmäisi 128k:n
 
-**Piirilevyjen backplane**
-+ 5 korttipaikkaa, tässä koneessa kolme korttia asennettuna:
+**Piirilevyt ja niiden backplane**
++ 5 korttipaikkaa ja kehikko, tässä koneessa kolme korttia asennettuna:
   - Peripheral Interface Card 8450
   - CPU Card 8416B
   - AMC-100 Junior 8437B (mikä tämän tarkoitus? Z80 CPU + 2x M2764 EPROM, tarrojen teksti ei täsmää checksumeihin. Videolähtö tällä kortilla)
+  - 🖼️ [Kuvia piirilevyistä](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/tree/main/kuvat/PCB)
 + liitin: Perlos CO64FS-C1E-0,8/5 - backplanessa ja CPU-kortilla kaksi liitintä, muissa vain yksi
 
 **Virtalähde**
@@ -52,12 +64,14 @@ _Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2
 + yksi säädettävä trimmeri, jolle reikä virtalähteen suojapellissä. Arvaus: +5V jännitesäätö? Tässä koneessa sinetöity liimatipalla.
 + elkot: 2x 220/200V, 2x 220/16V SL, 2x 2200/16 pun. SXC, 1000/25 pun SXC, 220/25 RX, 2x 100/25 RX, 470/63, 470/35 pun SXC, 4,7/100 SL, 1/100 SL
 + virtaliittimessä takapaneelissa linjafiltteri (Feller AG 8843.N2.130), lisäksi virtalähteessä 3x RIFA 4700pf Y-konkat
++ 🖼️ [Kuvia virtalähteestä](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/tree/main/kuvat/PCB)
 
 **Kaiutin**
 + 10ohm 0,5W
 + backplanessa vapaa kytkemätön liitin SPEAKER, ehkä linjalähtö koska sis.kaiuttimen signaali tulee muualta?
 
 **Liitännät**
++ 🖼️ [Takapaneeli](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/AMC100_takapaneeli.jpg)
 + VIDEO1 (komposiittivideo monitorille, koaksiaaliliitin)
 + RF (analog.tv-viritin televisiolle, koaksiaaliliitin) - Alpsin viritin kotelon takaosassa
 + SERIAL 1 ("med" - mitä tarkoittaa?) - D25 naaras, musta
@@ -73,6 +87,10 @@ _Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2
 + piirilevyllä myös juotospisteet EAR ja MIC, eli ilmeisesti mahdollisuus tuoda kielistudiokäytössä myös kuulokemikrofonin linjat näppäimistön kautta
 + kiinteä johto näppäimistön päässä (9-johdinta: GND, GND, T0, CLK, DAT, STR, RST, BRK, +5), 25-pinninen D-liitin tietokoneen päässä
 + näppäimistö-reset näppäinyhdistelmällä PRINT RESET + CALL RESET
++ Ulkoiset mitat: 35cm leveä, 20cm syvä, n. 5cm korkea.
++ 🖼️ [Kuvia näppäimistöstä](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/tree/main/kuvat/näppäimistö)
+
+<br />
 
 # 💾 Softa
 
@@ -80,6 +98,8 @@ _Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2
 
 Tällä hetkellä ainoan levykkeeni (Sukol + Brainware Kieli-Welho näyteversio) perusteella: 60k CP/M ver 2.2, muitakin?
 
+<br />
+
 ![softa](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/kieli-welho_screenshot.png)
 
-🎮 Katso video: <https://archive.org/details/amc-100-kieliwelho>
+🎮 Katso "läpipeluuvideo": <https://archive.org/details/amc-100-kieliwelho>
