@@ -1,18 +1,24 @@
-# Visiotek AMC-100 DC816 Educational Computer -arkisto
+# 📝 Visiotek AMC-100 DC816 Educational Computer -arkisto
 
 ![kone](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/AMC100_etupaneeli_pieni.jpeg)
 
-Kerään tänne ym. laitteeseen liittyviä havaintojani, kuvia ja tulevaisuudessa toivottavasti myös levyimageja, jos sellaisia saan käsiini.
+Kerään tänne ym. laitteeseen liittyviä havaintojani, kuvia ja tulevaisuudessa toivottavasti myös levyimageja, jos sellaisia saan käsiini lisää.
 
 # Historiaa ja taustoja
 
-> Suomen suosituin alkuaikojen koulutietokone oli kielistudioita valmistaneen Auditekin AMC-100, jota myytiin ulkomaillekin. AMC-100:t pystyi myös kytkemään lähiverkoksi. Toinen koulukäyttöön tarkoitettu CP/M-kone oli Pentti Hakalan suunnittelema Spectra eli Mikrospectra. (Ville-Matias Heikkilä @ https://skrolli.fi/2014/06/60-vuotta-suomalaisia-tietokoneita/)
+<br />
 
-Turkulainen 1970-luvulla syntynyt kielistudiolaitteiden valmistaja Auditek Oy (myöhemmin toisen turkulaisen, äänentoistolaitteisiin erikoistuneen Telesten tytäryhtiö) alkoi 1980-luvun alussa kehitellä atk-järjestelmiä perinteisten kielistudiolaitteistojen jatkoksi. Tästä syntyi AMC-100 opetustietokone. Auditekin perustaja Jarkko Metsätähti perusti vuonna 1984(?) uuden oman yrityksen, Visiotek Oy:n, jolle Teleste myi atk-opetuslaitetoiminnot, koska Teleste ei halunnut itse osallistua koulutietokoneiden valmistukseen. Tietokoneen piirilevyistä osan valmisti Salora, jonka logo näkyy piirilevyillä.
+> Suomen suosituin alkuaikojen koulutietokone oli kielistudioita valmistaneen Auditekin AMC-100, jota myytiin ulkomaillekin. AMC-100:t pystyi myös kytkemään lähiverkoksi.
+>
+_Ville-Matias Heikkilä @ https://skrolli.fi/2014/06/60-vuotta-suomalaisia-tietokoneita/)_
 
-Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2024.2 (https://skrolli.fi/2024.2.anttila.pdf, s. 38 alk)
+<br />
 
-# Rauta
+1970-luvulla perustettu turkulainen kielistudiolaitteiden valmistaja Auditek Oy alkoi 1980-luvun alussa kehitellä atk-järjestelmiä perinteisten kielistudiolaitteistojen jatkoksi. Tästä syntyi AMC-100 opetustietokone vuonna 1982 (Z80-prosessorilla, CP/M-käyttöjärjestelmällä ja mustavalkografiikalla). Toinen turkulainen äänetoistolaitteita valmistava yritys, Teleste, osti Auditekista ensin vuonna 1977 40% osuuden ja myöhemmin lisää. Auditekin perustaja Jarkko Metsätähti perusti vuonna 1984 uuden oman yrityksen, Visiotek Oy:n, jolle Teleste myi atk-opetuslaitetoiminnot, koska Teleste ei halunnut itse osallistua koulutietokoneiden valmistukseen. AMC-tietokoneiden piirilevyjen syövytyksen hoiti alihankintana Salora. Vuosien 1984–1989 välillä koneeseen tuli uusia prosessorikortteja, 5,25-tuumainen lerppuasema muuttui 3,5 tuuman korppuasemaksi ja käyttöjärjestelmäkin vaihtui CP/M:stä DOSiksi. Myöhempiä malleja olivat mm. AMC-100/8, AMC-100/16, AMC-100/XT, AMC-100/AT.
+
+_Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2024.2 (https://skrolli.fi/2024.2.anttila.pdf, s. 38 alk)_
+
+# 🪛 Rauta
 
 **Levykeasemat**
 + 2x 5.25" lerppuasemat: Mitsubishi M4853-342M (04/1985) "Mini Flexible Disk Drive" - 80 tracks, 96 tracks/inch, 2 sides.
@@ -49,7 +55,7 @@ Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 20
 
 **Kaiutin**
 + 10ohm 0,5W
-+ backplanessa vapaa kytkemätön liitin SPEAKER, ehkä linjalähtö?
++ backplanessa vapaa kytkemätön liitin SPEAKER, ehkä linjalähtö koska sis.kaiuttimen signaali tulee muualta?
 
 **Liitännät**
 + VIDEO1 (komposiittivideo monitorille, koaksiaaliliitin)
@@ -59,7 +65,7 @@ Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 20
 + PARALLEL - D25 uros
 + KEYBOARD - D25 uros
 + EXT (tässä koneessa vain tyhjä, 5-pin DIN-liittimen näköinen aukko kotelossa - mille tarkoitettu?)
-+ takapaneelin tarrassa maininta neljästä lisäliittiimestä: R, G, B, Sync - optio RGB-lähdölle? Ei tässä koneessa asennettuna. Backplanessa nähtävillä vapaa 5-pinninen liitin VIDEO, jossa nämä ehkä tarjolla?
++ takapaneelin kuvassa maininta neljästä lisäliittiimestä: R, G, B, Sync - ilmeisesti siis malliin oli optio RGB-lähdölle? Backplanessa nähtävillä vapaa 5-pinninen liitin VIDEO, jossa signaalit ehkä tarjolla?
 
 **Näppäimistö**
 + QWERTY, ääkköset, F1-F15 funktionäppäimet, nuolinäppäimet ylös-alas välilyönnin vasemmalla puolella, oikealla vasen-oikea. YES- ja NO-näppäimet alimman rivin laidoissa.
@@ -68,7 +74,7 @@ Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 20
 + kiinteä johto näppäimistön päässä (9-johdinta: GND, GND, T0, CLK, DAT, STR, RST, BRK, +5), 25-pinninen D-liitin tietokoneen päässä
 + näppäimistö-reset näppäinyhdistelmällä PRINT RESET + CALL RESET
 
-# Softa
+# 💾 Softa
 
 ![boot](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/boot_screenshot.png)
 
@@ -76,4 +82,4 @@ Tällä hetkellä ainoan levykkeeni (Sukol + Brainware Kieli-Welho näyteversio)
 
 ![softa](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/kieli-welho_screenshot.png)
 
-Katso video: <https://archive.org/details/amc-100-kieliwelho>
+🎮 Katso video: <https://archive.org/details/amc-100-kieliwelho>
