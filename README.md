@@ -1,4 +1,4 @@
-# 📝 Visiotek AMC-100 DC816 Educational Computer -arkisto
+# 📝 Visiotek AMC-100 DC816 -arkisto
 
 ![kone](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/AMC100_etupaneeli_pieni.jpeg)
 
@@ -14,9 +14,9 @@ _Ville-Matias Heikkilä @ https://skrolli.fi/2014/06/60-vuotta-suomalaisia-tieto
 
 <br />
 
-1970-luvulla perustettu turkulainen kielistudiolaitteiden valmistaja Auditek Oy alkoi 1980-luvun alussa kehitellä atk-järjestelmiä perinteisten kielistudiolaitteistojen jatkoksi. Tästä syntyi AMC-100 opetustietokone vuonna 1982 (Z80-prosessorilla, CP/M-käyttöjärjestelmällä ja mustavalkografiikalla). Koneesta oli useampia malleja, suurimmat isoihin kielistudiokalusteisiin upotettavia malleja. Toinen turkulainen äänetoistolaitteita valmistava yritys, Teleste, osti Auditekista ensin vuonna 1977 40% osuuden ja myöhemmin lisää. 
+1970-luvulla perustettu turkulainen kielistudiolaitteiden valmistaja Auditek Oy alkoi 1980-luvun alussa kehitellä atk-järjestelmiä perinteisten kielistudioitten laajentamiseksi. Tästä syntyi AMC-100 opetustietokone vuonna 1982 (Z80-prosessorilla, CP/M-käyttöjärjestelmällä ja mustavalkografiikalla). Koneesta julkaistiin useampia malleja, ehkä tavallisimpana suoraan kalusteisiin sijoitettu luokkamalli. Toinen turkulainen äänetoistolaitteita valmistava yritys, Teleste, osti Auditekista ensin vuonna 1977 40% osuuden ja myöhemmin Auditekista tuli Telesten tytäryhtiö.
 <br /><br />
-Auditekin perustaja Jarkko Metsätähti perusti vuonna 1984 uuden oman yrityksen, Visiotek Oy:n, jolle Teleste myi atk-opetuslaitetoiminnot, koska Teleste ei halunnut itse osallistua koulutietokoneiden valmistukseen. AMC-tietokoneiden piirilevyjen syövytyksen hoiti alihankintana Salora. Vuosien 1984–1989 välillä koneeseen tuli uusia prosessorikortteja, 5,25-tuumainen lerppuasema muuttui 3,5 tuuman korppuasemaksi ja käyttöjärjestelmäkin vaihtui CP/M:stä DOSiksi. Myöhempiä malleja olivat mm. AMC-100/8, AMC-100/16, AMC-100/XT, AMC-100/AT.
+Auditekin perustaja Jarkko Metsätähti perusti vuonna 1984 uuden yrityksen, Visiotek Oy:n, jolle Teleste myi atk-opetuslaitetoiminnot, koska Teleste ei halunnut itse osallistua kilpailuun tietokoneiden valmistuksessa. AMC-tietokoneiden piirilevyjen syövytyksen hoiti alihankintana Salora, jonka logo esiintyy monissa tietokoneen piirilevyistä. Vuosien 1984–1989 välillä koneeseen tuli tarjolle uusia prosessorikortteja, 5,25" lerppuasema muuttui 3,5" korppuasemaksi ja käyttöjärjestelmä CP/M:stä MS-DOS:ksi. Myöhempiä malleja olivat mm. AMC-100/8, AMC-100/16, AMC-100/XT, AMC-100/AT.
 
 _Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2024.2 (https://skrolli.fi/2024.2.anttila.pdf, s. 38 alk)_
 
@@ -25,7 +25,7 @@ _Kts. "Visiotek AMC-100 - Tiatokone Suamen Turust" (Tapani Joelsson) @ Skrolli 2
 # 🪛 Rauta
 
 <br />
-Ulkoisesti kone on suuri, n. 50cm leveä, 42cm syvä ja 13cm korkea. Painava. <br />
+Ulkoisesti kone on suuri, n. 50cm leveä, 42cm syvä ja 13cm korkea. Painava. Koneessa on kahden 5.25" asemapaikan lisäksi virtalähde sekä korttikehikko johon koneen CPU- ja muut piirilevykortit asetetaan. Koneessa on sisäärakennettu kaiutin. <br />
 
 🖼️ [Kone sisältä](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/AMC100_sisus.jpg)
 
@@ -51,7 +51,7 @@ Ulkoisesti kone on suuri, n. 50cm leveä, 42cm syvä ja 13cm korkea. Painava. <b
 
 **Piirilevyt ja niiden backplane**
 + 5 korttipaikkaa ja kehikko, tässä koneessa kolme korttia asennettuna:
-  - Peripheral Interface Card 8450
+  - Peripheral Interface Card 8450. Test-jumpperin tarkoitus?
   - CPU Card 8416B
   - AMC-100 Junior 8437B (mikä tämän tarkoitus? Z80 CPU + 2x M2764 EPROM, tarrojen teksti ei täsmää checksumeihin. Videolähtö tällä kortilla)
   - 🖼️ [Kuvia piirilevyistä](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/tree/main/kuvat/PCB)
@@ -64,10 +64,11 @@ Ulkoisesti kone on suuri, n. 50cm leveä, 42cm syvä ja 13cm korkea. Painava. <b
 + yksi säädettävä trimmeri, jolle reikä virtalähteen suojapellissä. Arvaus: +5V jännitesäätö? Tässä koneessa sinetöity liimatipalla.
 + elkot: 2x 220/200V, 2x 220/16V SL, 2x 2200/16 pun. SXC, 1000/25 pun SXC, 220/25 RX, 2x 100/25 RX, 470/63, 470/35 pun SXC, 4,7/100 SL, 1/100 SL
 + virtaliittimessä takapaneelissa linjafiltteri (Feller AG 8843.N2.130), lisäksi virtalähteessä 3x RIFA 4700pf Y-konkat
++ virtakytkin ja -merkkivalo etupaneelin vasemmassa yläkulmassa
 + 🖼️ [Kuvia virtalähteestä](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/tree/main/kuvat/PCB)
 
 **Kaiutin**
-+ 10ohm 0,5W
++ 10ohm 0,5W pienoiskaiutin koneen sisällä
 + backplanessa vapaa kytkemätön liitin SPEAKER, ehkä linjalähtö koska sis.kaiuttimen signaali tulee muualta?
 
 **Liitännät**
@@ -103,3 +104,11 @@ Tällä hetkellä ainoan levykkeeni (Sukol + Brainware Kieli-Welho näyteversio)
 ![softa](https://github.com/lausvi/Visiotek-AMC-100-DC816-arkisto/blob/main/kuvat/kieli-welho_screenshot.png)
 
 🎮 Katso "läpipeluuvideo": <https://archive.org/details/amc-100-kieliwelho>
+
+<br />
+
+# ❔Kysymyksiä
+
++ Miten mallimerkintä "AMC-100 DC" ja "DC816" pitäisi tulkita?
++ Miten avauslainauksessa mainittu lähiverkko oli rakennettu?
++ Tässä kuvatussa laitteessa on sekä Z80 että 8086-prosessori, onko ensimmäinen yhteensopivuutena vanhempien vain CP/M-mallien softille, vai miksi molemmat?
