@@ -112,3 +112,8 @@ Tällä hetkellä ainoan levykkeeni (Sukol + Brainware Kieli-Welho näyteversio)
 + Miten mallimerkintä "AMC-100 DC" ja "DC816" pitäisi tulkita?
 + Miten avauslainauksessa mainittu lähiverkko oli rakennettu?
 + Tässä kuvatussa laitteessa on sekä Z80 että 8086-prosessori, onko ensimmäinen yhteensopivuutena vanhempien vain CP/M-mallien softille, vai miksi molemmat?
+<br />
+
+# Sekalaista / linkkejä
++ Printti -lehti 14/1986:ssa: ”Näitä koneita kouluissa on”: yleisin kone MikroMikko (1009 kpl), toisella sijalla AMC (754 kpl)
++ mainos AMC-100 Juniorista https://vuodenhuiput.fi/work/amc-100-junior-kampanja/ <br /> teksti: "Visiotek on kehittänyt täysin uuden suomalaisen opetustietokoneen, AMC-100 Juniorin. Junior on suunniteltu peruskoulun opetustietokoneeksi ja se on erinomainen myös ATK-kerhojen käytössä. Juniorissa on CP/M-käyttöjärjestelmä ja siinä voidaan käyttää kouluhallituksen hyväksymiä opetusohjelmia. Suomaisia ohjelmia on saatavana Juniorille jo runsaasti. Junior on rakennettu kestämään jatkuvaa koulukäyttöä. Koko tietokone näyttöruutuineen on yhdessä vankassa metallikotelossa. Kaikki liittimet ja johdotukset ovat suojassa. Myös näppäimistö on rakennettu metallikoteloon joka tarvittaessa toimii tietokoneen lukittavana suojakotelona. Juniorit kootaan opetusjärjestelmäksi liittämällä ne Medianet-opetusverkkoon. Suomalaisella Medianet-verkolla opettaja voi siirtää kuvaa, ääntä ja dokumentteja oppilastyöasemiin. Lisäksi hän voi käyttää opetuksessa videonauhoja ja kauko-ohjata oppilaiden tietokoneita. AMC-100 Junior on ylivoimainen alle 8000 mk:n hintaluokassaan".
